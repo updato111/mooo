@@ -24026,11 +24026,11 @@
                 activeModalParams: e.activeModalParams
             }
         }
-          , Kp = e=>"https://api.allorigins.win/get?url=https://api.monkey-cost.app/v1/file/images/" + e
+          , Kp = e=>"https://corsproxy.io/?https://api.monkey-cost.app/v1/file/images/" + e
           , Vp = async function(e) {
             let t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {};
             const n = window.Telegram.WebApp.initData
-              , r = "https://api.allorigins.win/get?url=https://api.monkey-cost.app/v1" + e;
+              , r = "https://corsproxy.io/?https://api.monkey-cost.app/v1" + e;
             try {
                 const e = await fetch(r, {
                     method: "POST",
@@ -52407,7 +52407,7 @@
                         console.error("invalid category!")
                     }
                     )((e = c,
-                    "https://api.allorigins.win/get?url=https://api.monkey-cost.app/v1" + "/story/".concat("bananaGame", "?payload=").concat(e)), "bananaGame")
+                    "https://corsproxy.io/?https://api.monkey-cost.app/v1" + "/story/".concat("bananaGame", "?payload=").concat(e)), "bananaGame")
                 } catch (t) {
                     return P(),
                     Ge().showAlert("It seems that this feature is not supported in your version of the Telegram client.\n" + t),
